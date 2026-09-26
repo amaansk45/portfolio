@@ -8,10 +8,10 @@ export const personalInfo = {
   phone: "+91 99877 20785",
   github: "https://github.com/amaansk45",
   linkedin: "https://www.linkedin.com/in/amaan-shaikh-771623222/",
-  resumePath: "/resume.pdf",
-  avatar: "/avatar-animated.png",
-  avatarCutout: "/avatar-animated.png",
-  avatarAnimated: "/avatar-animated.png",
+  resumePath: "./resume.pdf",
+  avatar: "./avatar-animated.png",
+  avatarCutout: "./avatar-animated.png",
+  avatarAnimated: "./avatar-animated.png",
   bio: "Master of Computer Application (Semester 3) scholar with a passion for architecting scalable web applications, robust Django RESTful APIs, and clean full-stack user experiences. Driven by clean code, structured database design, and continuous learning.",
   heroDescription: "I build modern, scalable and user-friendly web applications using Python, Django, React and modern web technologies.",
   careerGoal: "To become a professional Python Full Stack Developer and build scalable, real-world web applications that deliver measurable value.",
@@ -173,7 +173,7 @@ export const projects = [
     category: "Django Full Stack",
     description:
       "A complete full-stack academic administrative platform engineered to manage student records, course enrollments, attendance, and administrative oversight with secure authentication.",
-    image: "/projects/student-management.jpg",
+    image: "./projects/student-management.jpg",
     technologies: ["Python", "Django", "HTML", "CSS", "JavaScript", "Django ORM", "SQLite/MySQL"],
     features: [
       "Secure User Authentication & Role-Based Access Control (Admin vs Student)",
@@ -193,7 +193,7 @@ export const projects = [
     category: "PHP & MySQL",
     description:
       "A feature-packed e-commerce web application specialized for footwear retail, featuring dynamic product catalogs, filtering, cart management, and seamless order workflows.",
-    image: "/projects/footwear-ecommerce.jpg",
+    image: "./projects/footwear-ecommerce.jpg",
     technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
     features: [
       "Dynamic product catalog with category, size, price, and brand filtering",
